@@ -47,4 +47,3 @@ steps:
   inputs:
     PathtoPublish: '$(Build.SourcesDirectory)'
     ArtifactName: 'drop'
-    publishLocation: 'Container'
