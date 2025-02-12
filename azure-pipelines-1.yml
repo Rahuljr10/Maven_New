@@ -21,4 +21,4 @@ steps:
     containerRegistry: 'ACR connection'
     repository: 'RG'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: 'Dockerfile'
