@@ -16,6 +16,9 @@ steps:
     goals: 'package'
     publishJUnitResults: false
 
+- script: ls -l webapp/target  # List the contents of the target directory
+  displayName: 'List Target Directory'    
+
 - task: Docker@2
   inputs:
     containerRegistry: 'ACR connection'
