@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcat-demo
-        image: your-acr-name.azurecr.io/tomcat-demo:latest  # Replace with your ACR image
+        image: rahulacr55.azurecr.io/rg:Latest
         ports:
         - containerPort: 8080
 ---
